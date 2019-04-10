@@ -13,7 +13,7 @@ public class AccountTest {
         accountStructure.creditLimit = 1_000;
         accountStructure.amount = 0;
 
-        //Look ma, no checks!
+        //Look ma, no checks! 
         accountStructure.amount -= 2_000;
 
         assertThat(accountStructure.amount)
